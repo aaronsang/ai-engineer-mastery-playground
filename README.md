@@ -1,5 +1,5 @@
 # Mastery Collection - Books, Guided Projects, Tutorials, etc.
 
-Welcome! This is what I'm deeming as my mastery collection: learning material I've consumed to support my mission of becoming a Data Scientist and one day an AI Engineer.
+Welcome! This is my collection of Python, Machine Learning, and Deep Learning projects I've completed from either following a book, or an online resource as a means of aiding my learning.
 
 Thank you!
