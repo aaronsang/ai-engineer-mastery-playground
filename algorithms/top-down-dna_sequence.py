@@ -23,10 +23,26 @@ complement that takes a DNA sequence (a str) and returns the complement
 of it.
 """
 
-def complement(sequence):
+def complement():
     """ (str) -> str
     Return the complement of a DNA sequence.
 
     >>> sequence = [AATTGCCGT]
     'TTAACGGCA'
     """
+    # Input a DNA string sequence
+    sequence = input('Please provide a DNA sequence: ')
+
+    # Iterating letter by letter, lookup the complement of that input letter in the data structure
+    dna_mappings = {'A': 'T', 'T':'A', 'G':'C', 'C':'G'}
+    complement_sequence = ""
+
+    for letter in sequence:
+    # Add the complement to a new string
+        complement_sequence += dna_mappings.get(letter)
+
+    # return the final string
+    print(f'Your corresponding complements are: {complement_sequence}')
+
+complement()
+
